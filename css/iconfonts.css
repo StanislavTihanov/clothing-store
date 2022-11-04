@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'icons';
+    src:  url('../fonts/icons.eot?xf3u08');
+    src:  url('../fonts/icons.eot?xf3u08#iefix') format('embedded-opentype'),
+      url('../fonts/icons.ttf?xf3u08') format('truetype'),
+      url('../fonts/icons.woff?xf3u08') format('woff'),
+      url('../fonts/icons.svg?xf3u08#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"]::before, [class*=" icon-"]::before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-akar-icons_discord-fill:before {
+    content: "\e900";
+  }
+  .icon-facebook:before {
+    content: "\e901";
+  }
+  .icon-facebookfooter:before {
+    content: "\e902";
+  }
+  .icon-Icont:before {
+    content: "\e903";
+  }
+  .icon-instagram:before {
+    content: "\e904";
+  }
+  .icon-pinterest:before {
+    content: "\e905";
+  }
+  .icon-reddit:before {
+    content: "\e906";
+  }
+  .icon-telegram:before {
+    content: "\e907";
+  }
+  .icon-twitter:before {
+    content: "\e908";
+  }
+  .icon-vk:before {
+    content: "\e909";
+  }
+  .icon-youtube:before {
+    content: "\e90a";
+  }

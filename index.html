@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400;600;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/iconfonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Home</title>
+</head>
+<body id="body">
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a class="logo" href="index.html">
+                    <img src="images/Logo.svg" alt="logo">
+                </a>
+                <div class="header__burger" id="hamb" >
+                    <span></span>
+                </div>
+                <nav class="menu" id="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="catalog.html">Catalog</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="aboutus.html">About us</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="icont icon-Icont" id="open" href="#"><span>1</span></a>
+            </div>
+        </div>
+</header>
+<div class="rightside-menu" id="rightside">
+        <div class="rightside-menu__block">
+                <div class="rightside-menu__container">
+                    <a class="rightside-menu__icon icon-Icont" href="#"><span>1</span></a>
+                    <a class="rightside-menu__logo" href="#" >
+                        <img class="rightside-menu__img"src="images/rightsiade-logo.svg" alt="logo">
+                    </a>
+                    <a class="rightside-menu__close" id="close" href="#">
+                        <img src="images/×.svg" alt="close">
+                    </a>
+                </div>
+                <div class="rightside-menu__product">
+                    <a  class="rightside-menu__product-images" href="#">
+                        <img class="rightside-menu__product-img"src="images/product.jpg" alt="product" class="rightside-menu__product-img">
+                    </a>
+                    <div class="rightside-menu__product-block">
+                        <a class="rightside-menu__product-title" href="#">Product 1</a>
+                        <div class="rightside-menu__product-cost">1 × $5.40 = $5.40</div>
+                    </div>
+                    <a class="rightside-menu__product-delete" href="#">
+                        <img class="rightside-menu__product-trash" src="images/trash-can.svg" alt="delete">
+                    </a>
+                </div>
+                <div class="rightside-menu__product">
+                    <a  class="rightside-menu__product-images" href="#">
+                        <img class="rightside-menu__product-img"src="images/product.jpg" alt="product" class="rightside-menu__product-img">
+                    </a>
+                    <div class="rightside-menu__product-block">
+                        <a class="rightside-menu__product-title" href="#">Product 2</a>
+                        <div class="rightside-menu__product-cost">1 × $5.40 = $5.40</div>
+                    </div>
+                    <a class="rightside-menu__product-delete" href="#">
+                        <img class="rightside-menu__product-trash" src="images/trash-can.svg" alt="delete">
+                    </a>
+                </div>
+                <div class="rightside-menu__product">
+                    <a  class="rightside-menu__product-images" href="#">
+                        <img class="rightside-menu__product-img"src="images/product.jpg" alt="product" class="rightside-menu__product-img">
+                    </a>
+                    <div class="rightside-menu__product-block">
+                        <a class="rightside-menu__product-title" href="#">Product 3</a>
+                        <div class="rightside-menu__product-cost">1 × $5.40 = $5.40</div>
+                    </div>
+                    <a class="rightside-menu__product-delete" href="#">
+                        <img class="rightside-menu__product-trash" src="images/trash-can.svg" alt="delete">
+                    </a>
+                </div>
+                <div class="rightside-menu__product">
+                    <a  class="rightside-menu__product-images" href="#">
+                        <img class="rightside-menu__product-img"src="images/product.jpg" alt="product" class="rightside-menu__product-img">
+                    </a>
+                    <div class="rightside-menu__product-block">
+                        <a class="rightside-menu__product-title" href="#">Product 4</a>
+                        <div class="rightside-menu__product-cost">1 × $5.40 = $5.40</div>
+                    </div>
+                    <a class="rightside-menu__product-delete" href="#">
+                        <img class="rightside-menu__product-trash" src="images/trash-can.svg" alt="delete">
+                    </a>
+                </div>
+                
+                <div class="rightside-menu__subtotal">
+                    <div class="rightside-menu__subtotal-cost">
+                        <p class="rightside-menu__subtotal-title">Subtotal:</p>
+                        <a class="rightside-menu__subtotal-sum" href="#" >$21.60</a>
+                    </div>
+                    <button class="rightside-menu__subtotal-btn" id="checkout" >Checkout</button>
+                </div>
+        </div>
+    </div>
+
+    <div class="order" id="order">
+            <div class="order__body">
+                <div class="order__content">
+                    <a class="order__content-close" id="orderclose" href="#">X</a>
+                    <h3 class="order__content-title">Make an order</h3>
+                    <form class="order__form">
+                        <input class="order__form-input" placeholder="Your name" type="text">
+                        <input class="order__form-input" placeholder="Your phone" type="text">
+                        <input class="order__form-input" placeholder="Your e-mail" type="email">
+                        <textarea class="order__form-area" placeholder="Your message"></textarea>
+                        <a class="order__content-you" href="#">
+                            <h3 class="order__content-title1">You ordered:</h3>
+                            <img src="images/orderimg.jpg" alt="image">
+                        </a>
+                        <div class="order__form-button">
+                            <button class="order__form-btn" type="submit">Send an order</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+
+        <main class="main">
+            <section class="container">
+                <div class="homepage">
+                    <div class="homepage__content">
+                        <div class="homepage__content-block">
+                            <h1 class="homepage__content-title">Quis quisque mi rhoncus quis</h1>
+                            <a class="homepage__content-button" href="#">Show catalog</a>
+                        </div>
+                        <div class="homepage__content-images">
+                            <img src="images/home1.jpg" alt="image">
+                        </div>
+                    </div>
+                    <div class="homepage__content">
+                        <div class="homepage__content-images">
+                            <img src="images/home2.jpg" alt="image">
+                        </div>
+                        <p class="homepage__content-text">Blandit ultricies amet amet integer nunc volutpat. Blandit sit varius congue lorem habitant adipiscing. Cursus duis arcu, fermentum rhoncus aliquet lectus amet. </p>
+                    </div>
+                </div>
+            </section>
+            <section class="homepage-catalog">
+                <div class="container">
+                    <h2 class="homepage-catalog__title">Catalog</h2>
+                        <div class="homepage-catalog__items">
+                            <div class="homepage-catalog__item">
+                                <a class="homepage-catalog__item-image">
+                                    <img class="homepage-catalog__item-img" src="images/catalog/catalog1.jpg" alt="catalog">
+                                </a>
+                                <a class="homepage-catalog__item-text" href="#">Non est magna</a>
+                                <a class="homepage-catalog__item-cost" href="#">$38</a>
+                            </div>
+                            <div class="homepage-catalog__item">
+                                <a class="homepage-catalog__item-image">
+                                    <img class="homepage-catalog__item-img" src="images/catalog/catalog2.jpg" alt="catalog">
+                                </a>
+                                <a class="homepage-catalog__item-text" href="#">Non est magna</a>
+                                <a class="homepage-catalog__item-cost" href="#">$38</a>
+                            </div>
+                            <div class="homepage-catalog__item">
+                                <a class="homepage-catalog__item-image">
+                                    <img class="homepage-catalog__item-img" src="images/catalog/catalog3.jpg" alt="catalog">
+                                </a>
+                                <a class="homepage-catalog__item-text" href="#">Non est magna </a>
+                                <a class="homepage-catalog__item-cost" href="#">$38</a>
+                            </div>
+                            <div class="homepage-catalog__item">
+                                <a class="homepage-catalog__item-image">
+                                    <img class="homepage-catalog__item-img" src="images/catalog/catalog4.jpg" alt="catalog">
+                                </a>
+                                <a class="homepage-catalog__item-text" href="#">Non est magna</a>
+                                <a class="homepage-catalog__item-cost" href="#">$38</a>
+                            </div>
+                            <div class="homepage-catalog__item">
+                                <a class="homepage-catalog__item-image">
+                                    <img class="homepage-catalog__item-img" src="images/catalog/catalog5.jpg" alt="catalog">
+                                </a>
+                                <a class="homepage-catalog__item-text" href="#">Non est magna</a>
+                                <a class="homepage-catalog__item-cost" href="#">$38</a>
+                            </div>
+                            <div class="homepage-catalog__item">
+                                <a class="homepage-catalog__item-image">
+                                    <img class="homepage-catalog__item-img" src="images/catalog/catalog6.jpg" alt="catalog">
+                                </a>
+                                <a class="homepage-catalog__item-text" href="#">Non est magna</a>
+                                <a class="homepage-catalog__item-cost" href="#">$38</a>
+                            </div>
+                            <div class="homepage-catalog__item">
+                                <a class="homepage-catalog__item-image">
+                                    <img class="homepage-catalog__item-img" src="images/catalog/catalog7.jpg" alt="catalog">
+                                </a>
+                                <a class="homepage-catalog__item-text" href="#">Non est magna</a>
+                                <a class="homepage-catalog__item-cost" href="#">$38</a>
+                            </div>
+                            <div class="homepage-catalog__item">
+                                <a class="homepage-catalog__item-image">
+                                    <img class="homepage-catalog__item-img" src="images/catalog/catalog8.jpg" alt="catalog">
+                                </a>
+                                <a class="homepage-catalog__item-text" href="#">Non est magna</a>
+                                <a class="homepage-catalog__item-cost" href="#">$38</a>
+                            </div>
+                        </div>
+                        <div class="homepage-catalog__btn">
+                            <button class="homepage-catalog__button">Show more</button>
+                        </div>
+                </div>
+            </section>
+            <section class="homepage-about">
+                <h2 class="homepage-about__title">About us</h2>
+                <div class="homepage-about__body">
+                    <div class="homepage-about__info">
+                        <h3 class="homepage-about__info-title">Cras nascetur cum nec</h3>
+                        <p class="homepage-about__info-text">Morbi quisque facilisis pretium, ullamcorper. Eget id quisque ridiculus ipsum duis venenatis arcu tristique vestibulum. Integer in praesent pretium aliquam. Lacinia facilisi adipiscing donec orci ut aliquam, elementum cursus. Ut senectus nec sit elementum nulla faucibus adipiscing.</p>
+                        <p class="homepage-about__info-text">Amet ullamcorper elementum neque sodales a. Lectus dolor praesent faucibus blandit. Sit mauris ac at semper tempor quisque adipiscing orci. Urna sagittis nunc lorem amet. Magnis fames faucibus viverra pulvinar lectus vitae lacus ut. Imperdiet quis auctor ullamcorper iaculis risus neque, cursus pulvinar.</p>
+                        <h4 class="homepage-about__info-title1">Vitae id nullam</h4>
+                        <p class="homepage-about__info-text">Non velit, convallis aliquet vehicula facilisis suspendisse. Urna fusce elit, massa sit cursus sit enim, in in. </p>
+                    </div>
+                    <div class="homepage-about__image">
+                        <img src="images/aboutus.jpg" alt="image">
+                    </div>
+                </div>
+            </section>
+            <section class="homepage-slider">
+                <div class="homepage-slider__wrapper">
+                    <h2 class="homepage-slider__title">Reviews</h2>
+                    <div class="homepage-slider__body">
+                        <div class="homepage-slider__item article-slider">
+                            <div class="homepage-slider__inner">
+                            <div class="homepage-slider__foto">
+                                <img class="homepage-slider__img" src="images/slider/slider1.jpg" alt="image">
+                            </div>
+                            <div class="homepage-slider__info">
+                                <h3 class="homepage-slider__info-name">Talia Kerin</h3>
+                                <p class="homepage-slider__info-text">Sagittis sed habitasse orci orci. Tellus, nulla magna blandit ornare non, nullam vel. Consectetur quam varius arcu, eget dolor quis. Aliquam lectus lacus maecenas leo, eget tincidunt ut venenatis. Rutrum nibh ac libero, viverra consectetur nunc. Vitae parturient ut facilisi eros, sagittis magna nec.</p>
+                                <div class="homepage-slider__info-social">
+                                    <a class="homepage-slider__info-link icon-vk" href="#"></a>
+                                    <a class="homepage-slider__info-link icon-facebook" href="#"></a>
+                                    <a class="homepage-slider__info-link icon-instagram" href="#"></a>
+                                    <a class="homepage-slider__info-link icon-telegram" href="#"></a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="homepage-slider__item">
+                            <div class="homepage-slider__inner">
+                            <div class="homepage-slider__foto">
+                                <img class="homepage-slider__img" src="images/slider/slider1.jpg" alt="image">
+                            </div>
+                            <div class="homepage-slider__info">
+                                <h3 class="homepage-slider__info-name">Talia Kerin</h3>
+                                <p class="homepage-slider__info-text">Sagittis sed habitasse orci orci. Tellus, nulla magna blandit ornare non, nullam vel. Consectetur quam varius arcu, eget dolor quis. Aliquam lectus lacus maecenas leo, eget tincidunt ut venenatis. Rutrum nibh ac libero, viverra consectetur nunc. Vitae parturient ut facilisi eros, sagittis magna nec.</p>
+                                <div class="homepage-slider__info-social">
+                                    <a class="homepage-slider__info-link icon-vk" href="#"></a>
+                                    <a class="homepage-slider__info-link icon-facebook" href="#"></a>
+                                    <a class="homepage-slider__info-link icon-instagram" href="#"></a>
+                                    <a class="homepage-slider__info-link icon-telegram" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="homepage-slider__item">
+                            <div class="homepage-slider__inner">
+                            <div class="homepage-slider__foto">
+                                <img class="homepage-slider__img" src="images/slider/slider1.jpg" alt="image">
+                            </div>
+                            <div class="homepage-slider__info">
+                                <h3 class="homepage-slider__info-name">Talia Kerin</h3>
+                                <p class="homepage-slider__info-text">Sagittis sed habitasse orci orci. Tellus, nulla magna blandit ornare non, nullam vel. Consectetur quam varius arcu, eget dolor quis. Aliquam lectus lacus maecenas leo, eget tincidunt ut venenatis. Rutrum nibh ac libero, viverra consectetur nunc. Vitae parturient ut facilisi eros, sagittis magna nec.</p>
+                                <div class="homepage-slider__info-social">
+                                    <a class="homepage-slider__info-link icon-vk" href="#"></a>
+                                    <a class="homepage-slider__info-link icon-facebook" href="#"></a>
+                                    <a class="homepage-slider__info-link icon-instagram" href="#"></a>
+                                    <a class="homepage-slider__info-link icon-telegram" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="homepage-contacts">
+                <div class="homepage-contacts__wrapper">
+                    <h2 class="homepage-contacts__title">Contacts</h2>
+                    <div class="homepage-contacts__body">
+                        <div class="homepage-contacts__info">
+                            <div class="homepage-contacts__info-block">
+                                <a class="homepage-contacts__address" href="#">Address:</a>
+                                <a class="homepage-contacts__str" href="#" >Moscow, Projected passage No. 7029</a>
+                                <a class="homepage-contacts__phone" href="#" >Phone: </a>
+                                <a class="homepage-contacts__number" href="tel:+14158297934">+7 (988) 888-88-88</a> <br>
+                                <a class="homepage-contacts__fax"  href="tel:+14158297934">Fax:</a>
+                                <a class="homepage-contacts__fax-number"  href="tel:+14158297934">Fax: +7 (988) 888-88-88</a>
+                            </div>
+                            <h4 class="homepage-contacts__requisites">Requisites</h4>
+                            <p class="homepage-contacts__req">ОКПО 00032547</p>
+                            <p class="homepage-contacts__req">ОКАТО 45293554001</p>
+                            <p class="homepage-contacts__req">ОКТМО 45397000001</p>
+                        </div>
+                        <form class="order__form homepage-contacts__form">
+                            <input class="order__form-input" placeholder="Your name" type="text">
+                            <input class="order__form-input" placeholder="Your phone" type="text">
+                            <input class="order__form-input" placeholder="Your e-mail" type="email">
+                            <textarea class="order__form-area" placeholder="Your message"></textarea>
+                            <div class="homepage-contacts__form-button">
+                                <button class="homepage-contacts__form-btn" type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81315.59089037207!2d-74.11900380605806!3d40.76403219006086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c257b6ccc6e50f%3A0x5f5d048ca6540e4f!2z0KHQtdC60L7QutGD0YEsINCd0YzRji3QlNC20LXRgNGB0LgsINCh0KjQkA!5e0!3m2!1sru!2sru!4v1666933338127!5m2!1sru!2sru" width="1366" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>
+    <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__block">
+                            <div class="footer__info">
+                                <h3 class="footer__info-title">Consequat orci, risus</h3>
+                                <p class="footer__info-text">Nulla tellus diam ornare id purus et nisi facilisis nec. Orci nullam ornare quisque mollis sollicitudin. Ante risus lorem pellentesque orci.</p>
+                                <h4 class="footer__info-title1">Join the community</h4>
+                                <div class="footer__info-social">
+                                    <a class="footer__info-link icon-akar-icons_discord-fill" href="#"></a>
+                                    <a class="footer__info-link icon-youtube" href="#"></a>
+                                    <a class="footer__info-link icon-twitter" href="#"></a>
+                                    <a class="footer__info-link icon-pinterest" href="#"></a>
+                                    <a class="footer__info-link icon-reddit" href="#"></a>
+                                    <a class="footer__info-link icon-facebookfooter" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="footer__menu">
+                                <div class="footer__menu-block">
+                                    <h3 class="footer__menu-title">Marketplace</h3>
+                                    <nav class="footer__menu-nav">
+                                        <ul class="footer__menu-list">
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Shop</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">About</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Gallery</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="footer__menu-block">
+                                    <h3 class="footer__menu-title">Resource</h3>
+                                    <nav class="footer__menu-nav">
+                                        <ul class="footer__menu-list">
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Sed</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Vitae</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Tellus</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Dui</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="footer__menu-block">
+                                    <h3 class="footer__menu-title">My Account</h3>
+                                    <nav class="footer__menu-nav">
+                                        <ul class="footer__menu-list">
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Congue</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Augue</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Posuere</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Molestie</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="footer__menu-block">
+                                    <h3 class="footer__menu-title">Company</h3>
+                                    <nav class="footer__menu-nav">
+                                        <ul class="footer__menu-list">
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Cras</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Tincidunt</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Gravida</a>
+                                            </li>
+                                            <li class="footer__menu-item">
+                                                <a class="footer__menu-link" href="#">Mattis</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        <div class="footer__copyright">
+                <div class="container">
+                    <div class="footer__copyright-wrapper">
+                        <p>Copyright ® 2021</p> 
+                        <div class="footer__copyright-block">
+                            <a class="footer__copyright-link" href="#">Policy</a>
+                            <a class="footer__copyright-link" href="#">Security</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </footer>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
